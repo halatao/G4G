@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC43C3A7-6094-0637-37ED-3F2B4EE3D8CF" name="Account">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>763CC5DC-CFDC-572F-C2AC-420DF251A096</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Account" id="FC0EE997-32DF-C45F-9848-759457A8D939">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>CF28B649-8842-BE43-8B2E-930E608D4D61</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username" id="3347319D-8D6F-E417-A5AB-C7A1B2C3100E">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>BAFD4DB0-4328-369C-92B0-B38BE3D8AF90</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="9DE2B97D-41E7-E7D0-E5BC-AE655C082D79">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>6A09408C-BDB0-DE11-E71D-D6BF460183B5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="E8D11557-9D31-AC84-3684-7F984F830424">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>3437FC8C-2F7F-0B1E-B661-F3E321412935</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Picture" id="16B67C57-1CF5-9E84-FBAB-76B0D83ECCA2">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>28331041-80D0-05F5-ED51-616D5EEAB128</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Permission_ID_Permission" id="60B3455F-6C0E-CE53-9925-4453521CE82E">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>D018DD8D-FF7E-F5EF-4DE8-E22EF7108DCA</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6C6B87A-E42A-1097-6608-5FB334830970" referredColumn="97063D2F-67B2-DD51-0598-508AFFBE662A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFBA2DF8-E434-DF92-8F72-2026272AF2AC" name="Account_PK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>1EC51E04-AC69-9CA0-3AD1-6EEE5BF1E845</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0EE997-32DF-C45F-9848-759457A8D939"/>
+<colUsage columnID="3347319D-8D6F-E417-A5AB-C7A1B2C3100E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F626C339-CC68-D1E6-0526-90ED852941AD" name="Account_Permission_FK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>BA55CC8B-C36A-63D5-14B1-01CD5B771980</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B3455F-6C0E-CE53-9925-4453521CE82E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5F9AC2-6164-8905-470A-9D545929159F" name="Content">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>FD8C9384-CD89-CF3E-8ABD-E67F1E8CAFAD</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Content" id="76B604F0-42FD-F30F-BC41-14CF8F36A525">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>B0080B33-B545-CE2C-75F5-3C930453A3DD</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="86047893-E0FA-3C1E-A7E6-E50F66A19FF1">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>F31BCBA2-5E31-BBFD-210F-AF0FCBF541B0</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Headline" id="9ACB7A4B-8461-06E7-C71B-8083B595875C">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>E963B126-21BB-DA81-FB1B-BDBC53B116D5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text" id="DADB3672-B8E2-F653-D9AF-1C7B94217C06">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>4D9E20AE-A003-B4B5-903E-6902FC430F98</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Views" id="AD55899E-13B6-9621-6E36-C3F914A494DA">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>2261EC8D-8B50-1577-9D2B-30075D45E04F</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Account_ID_Account" id="4446BC32-5A27-9EC7-FF21-C8E66F4E3E45">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>DFDE7341-5DA1-48A0-9894-5B490385AE61</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C27F920D-4759-2825-169F-49072B639EFF" referredColumn="FC0EE997-32DF-C45F-9848-759457A8D939"/>
+</associations>
+</Column>
+<Column name="Account_Username" id="F91816A6-D1C4-D3C6-0F3D-21A98882B5E8">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>C2920E23-828E-4D66-143F-7DA2CAA22CAB</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C27F920D-4759-2825-169F-49072B639EFF" referredColumn="3347319D-8D6F-E417-A5AB-C7A1B2C3100E"/>
+</associations>
+</Column>
+<Column name="Kind_ID_Kind" id="1772A6FA-5456-A159-EE2C-08DBDA204E26">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>7F9164FA-94A8-0F26-E89D-B0250CEB8E31</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAA9172D-ECAA-A5DA-0883-9B401499F1C3" referredColumn="828F6F7A-C11A-3E7B-AD08-843477D5EB32"/>
+</associations>
+</Column>
+<Column name="Subcategory_ID_Subcategory" id="9BFFC87E-7591-5BC8-B147-25B72137837D">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>8BB94B3D-7469-B133-2388-69286A7A4DA3</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC21F585-5E93-E430-E5A5-8331EB299596" referredColumn="95125EA7-94AA-0A2A-D9C7-A77A38C84EC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3364B94F-CD24-5B59-2B43-02AA37704AFE" name="Content_PK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>BC166B3D-74EF-D14D-A43F-E6AC364167C5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76B604F0-42FD-F30F-BC41-14CF8F36A525"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CD94ECB-1A34-2D64-A621-AC96A59985E9" name="Content_Account_FK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>7AF9CD3E-9061-F9BA-2481-DDEAB5221929</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4446BC32-5A27-9EC7-FF21-C8E66F4E3E45"/>
+<colUsage columnID="F91816A6-D1C4-D3C6-0F3D-21A98882B5E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="288D21A9-D653-C52F-EAF3-374A5EB8D308" name="Content_Kind_FK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>410DEAB8-51CC-8C15-6D9C-245170732B0A</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1772A6FA-5456-A159-EE2C-08DBDA204E26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="166A46FA-1BAA-A057-13C8-97C30FEBD388" name="Content_Subcategory_FK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>04EBD0C7-EAAF-7391-F40A-DCEBE46721BC</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BFFC87E-7591-5BC8-B147-25B72137837D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

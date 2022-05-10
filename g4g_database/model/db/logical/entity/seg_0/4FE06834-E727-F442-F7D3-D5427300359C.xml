@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FE06834-E727-F442-F7D3-D5427300359C" name="Subcategory">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:28:48 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Subcategory" id="D11CBE65-8910-646C-1D94-22276804D3E4">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:28:55 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="54BDA5CC-EA75-1DCB-CCC7-5FB374C7B5BF">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:29:02 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Picture" id="C938E83E-99A3-6BAA-8D96-E6616534947E">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:31:05 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Category" id="CF0ECBF3-739D-F219-CCF6-07B4084D6FEE">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:30:26 UTC</createdTime>
+<generatorID>9ADAED4C-017D-DCD4-551B-51BC8109468E</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<referedAttribute>9A5E81BE-E55B-A35D-EFEC-0810BA9B2154</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1D73992-7F06-10D0-9441-9FCC492C4450" name="Subcategory PK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:29:01 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D11CBE65-8910-646C-1D94-22276804D3E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

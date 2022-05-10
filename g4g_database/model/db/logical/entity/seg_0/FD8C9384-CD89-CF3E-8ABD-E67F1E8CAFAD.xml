@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD8C9384-CD89-CF3E-8ABD-E67F1E8CAFAD" name="Content">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:25:14 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Content" id="B0080B33-B545-CE2C-75F5-3C930453A3DD">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:26:11 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="F31BCBA2-5E31-BBFD-210F-AF0FCBF541B0">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:26:18 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Headline" id="E963B126-21BB-DA81-FB1B-BDBC53B116D5">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:26:23 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Text" id="4D9E20AE-A003-B4B5-903E-6902FC430F98">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:26:36 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Views" id="2261EC8D-8B50-1577-9D2B-30075D45E04F">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:26:43 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Account" id="DFDE7341-5DA1-48A0-9894-5B490385AE61">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:30:03 UTC</createdTime>
+<generatorID>7AF9CD3E-9061-F9BA-2481-DDEAB5221929</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<referedAttribute>CF28B649-8842-BE43-8B2E-930E608D4D61</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Username" id="C2920E23-828E-4D66-143F-7DA2CAA22CAB">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:30:03 UTC</createdTime>
+<generatorID>7AF9CD3E-9061-F9BA-2481-DDEAB5221929</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<referedAttribute>BAFD4DB0-4328-369C-92B0-B38BE3D8AF90</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Kind" id="7F9164FA-94A8-0F26-E89D-B0250CEB8E31">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:30:14 UTC</createdTime>
+<generatorID>410DEAB8-51CC-8C15-6D9C-245170732B0A</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<referedAttribute>DB5DAA59-141A-4ECC-C5DC-B974950B2135</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Subcategory" id="8BB94B3D-7469-B133-2388-69286A7A4DA3">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:30:29 UTC</createdTime>
+<generatorID>04EBD0C7-EAAF-7391-F40A-DCEBE46721BC</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<referedAttribute>D11CBE65-8910-646C-1D94-22276804D3E4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC166B3D-74EF-D14D-A43F-E6AC364167C5" name="Content PK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:26:17 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="A9709CB0-4B93-7D0B-74C9-58CEF7532C31" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0080B33-B545-CE2C-75F5-3C930453A3DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

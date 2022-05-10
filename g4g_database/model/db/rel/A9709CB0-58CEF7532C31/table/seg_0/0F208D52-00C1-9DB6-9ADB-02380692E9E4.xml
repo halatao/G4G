@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F208D52-00C1-9DB6-9ADB-02380692E9E4" name="Comment">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>E66BDB22-B0AF-A937-C24B-401415E5547D</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Comment" id="24CCA6BE-D7DC-A50B-EF1F-896555E840B1">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>FB4D1BC4-F4F8-D5CF-1BAF-9969CE0FA881</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Text" id="4D3801F1-12F3-E3DC-6F55-460D68FB55EE">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>3FE918FF-907F-6742-D016-2E7199CCD62E</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="8E845709-4C4A-BE20-46F8-B1C8DA67E0A3">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>D407324C-ED6C-6F36-C4BD-1230E50BC8B5</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Account_ID_Account" id="F9EB20CF-08C9-334F-EEA5-C68BEF41865F">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>B1F5316E-FA58-77FB-2327-199261AB748E</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED91EC0E-191C-1169-F006-839AF3045165" referredColumn="FC0EE997-32DF-C45F-9848-759457A8D939"/>
+</associations>
+</Column>
+<Column name="Account_Username" id="E12EB51A-F4C2-85EA-F9C3-40BB3D78B8F0">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>6BBA36EC-393C-0FEA-0EB4-DBB8043E187A</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED91EC0E-191C-1169-F006-839AF3045165" referredColumn="3347319D-8D6F-E417-A5AB-C7A1B2C3100E"/>
+</associations>
+</Column>
+<Column name="Content_ID_Content" id="13A6997A-AB56-E502-4BCC-158BC703DE5B">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>E8D3A345-C288-7879-5A2A-60F9737AF489</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C3D8A4-B47B-9254-114B-356F68FBA247" referredColumn="76B604F0-42FD-F30F-BC41-14CF8F36A525"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90B01115-0496-2446-9E62-8C49A9A3EDC6" name="Comment_PK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>3BA10281-4D13-DF5D-C798-0DA55B4EC940</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24CCA6BE-D7DC-A50B-EF1F-896555E840B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4CD94DB-BA5A-5BF2-8549-6B5B7C39358C" name="Comment_Account_FK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>EDB8CD1D-3632-CDC7-AB45-59C841538807</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9EB20CF-08C9-334F-EEA5-C68BEF41865F"/>
+<colUsage columnID="E12EB51A-F4C2-85EA-F9C3-40BB3D78B8F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F69BE4F-89FF-E0AC-5BBA-BD8232C8C5A3" name="Comment_Content_FK">
+<createdBy>Ondřej</createdBy>
+<createdTime>2022-04-03 06:32:37 UTC</createdTime>
+<generatorID>3F7FED57-FD9B-FB30-A190-A549321F6B6B</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13A6997A-AB56-E502-4BCC-158BC703DE5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
