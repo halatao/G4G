@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G4G", "G4G\G4G.csproj", "{BDE3CB31-1F94-4B24-819E-1DEFA5A3BC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G4GTests", "G4GTests\G4GTests.csproj", "{435AD73D-DDD3-4EE2-A9CF-9D621BA01C40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE3CB31-1F94-4B24-819E-1DEFA5A3BC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE3CB31-1F94-4B24-819E-1DEFA5A3BC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE3CB31-1F94-4B24-819E-1DEFA5A3BC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE3CB31-1F94-4B24-819E-1DEFA5A3BC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435AD73D-DDD3-4EE2-A9CF-9D621BA01C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435AD73D-DDD3-4EE2-A9CF-9D621BA01C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435AD73D-DDD3-4EE2-A9CF-9D621BA01C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435AD73D-DDD3-4EE2-A9CF-9D621BA01C40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B489D9EC-F6C0-472C-94A7-7D5474111F5B}
+	EndGlobalSection
+EndGlobal
